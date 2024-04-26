@@ -1,14 +1,8 @@
 /* =====navbar styling==== */
-.mynavbar{
-    background-color:#333333 ;
-}
-
 .heading1{
     color: white;
     margin-left: 4.5rem;
 }
-
-
 
 /* =====header Styling==== */
 .header{
@@ -47,5 +41,16 @@
     }
     .sec-1 p{
         display: none;
+    }
+}
+
+
+.music-image{
+    margin-left: 19rem;
+}
+
+@media(max-width:1700px){
+    .music-image{
+        margin-left: 0;
     }
 }
