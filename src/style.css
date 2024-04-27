@@ -44,6 +44,17 @@
     }
 }
 
+.sec-4{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media(min-width:1200px){
+   .sec-2{
+    margin-left: 10rem;
+    margin-right: 10rem;
+   }
+}
 
 .music-image{
     margin-left: 19rem;
@@ -54,3 +65,41 @@
         margin-left: 0;
     }
 }
+
+.sec-5{
+    background-image: url('https://thomasmartin86.github.io/mytuneslanding/img/section-bg.jpg');
+}
+
+/* card section */
+@media(min-width:1200px){
+    .card-main{
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+}
+@media(min-width:767px){
+    .card-main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card-main img{
+        width: 30%;
+    }
+
+    .card-main h4{
+        margin-left: 10rem;
+    }
+    .card-main p{
+        margin-left: 10rem;
+    }
+}
+
+
+/* footer */
+@media(max-width:667px){
+    .footer{
+        display: none;
+    }
+}
+
